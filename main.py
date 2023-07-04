@@ -11,10 +11,10 @@ mqtt_broker = "io.adafruit.com" # MQTT broker IP address or DNS
 port = 1883
 adafruit_username = #"Adafruit username"
 adafruit_password = #"Adafruit password" 
-subscribe_topic = b"Mackedaman/f/led"
-publish_topic_temp = b"Mackedaman/f/temperature"
-publish_topic_hum = b"Mackedaman/f/humidity"
-publish_topic_light = b"Mackedaman/f/light"
+subscribe_topic = #b"Username/f/led"
+publish_topic_temp = #b"Username/f/temperature"
+publish_topic_hum = #b"Username/f/humidity"
+publish_topic_light = #b"Username/f/light"
 
 
 red = machine.Pin(16,machine.Pin.OUT) # Red LED Pin 16
